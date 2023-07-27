@@ -103,6 +103,7 @@ p{
         max-width: 90%;
         margin-left: 0px;
         align-items: center;
+        text-align: center;
     }
 
     .service {
