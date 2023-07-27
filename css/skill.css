@@ -162,7 +162,6 @@ p{
 
     .skill {
         flex-direction: column;
-        flex: 100%;
         left: 20px;
         border-left: solid;
         margin: 0;

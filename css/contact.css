@@ -130,7 +130,6 @@ input[type=text] {
 }
 
 @media (max-width: 768px) {
-    /* Adjust the width and margin for .left and .address on smaller screens */
     .left, .address {
         width: 100%;
         margin-left: 0;
@@ -140,27 +139,24 @@ input[type=text] {
     .contactme {
         flex-direction: column;
     }
-    /* Center align .img on smaller screens */
+
     .img {
         left: 0;
         margin-left: auto;
         margin-right: auto;
     }
 
-    /* Adjust padding and position for .form on smaller screens */
     .form {
         width: 90%;
         padding-right: 0;
         padding-left: 20px;
     }
 
-    /* Adjust width and position for .button on smaller screens */
     .button {
         width: 90%;
         left: 0;
     }
 
-    /* Adjust the padding for .topnav links on smaller screens */
     .topnav a {
         padding: 12px 8px;
     }

@@ -99,7 +99,6 @@ p{
     }
 
     .left {
-        flex: 0 0 65%;
         width: 90%;
         margin-left: 0px;
         align-items: center;
