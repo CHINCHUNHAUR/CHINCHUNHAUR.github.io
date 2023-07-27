@@ -100,13 +100,22 @@ p{
 
     .left {
         flex: 0 0 65%;
-        max-width: 65%;
-            margin-left: 0px;
+        max-width: 90%;
+        margin-left: 0px;
+        align-items: center;
     }
 
     .service {
-
-        width: 80%px;
+        margin-right: 0%;
+        width: 80%;
         margin-left: 10px;
+    }
+
+    .software{
+        width: 90%;
+    }
+
+    .application{
+        width: 90%;
     }
 }
