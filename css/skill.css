@@ -167,9 +167,8 @@ p{
     }
 
     .office, .general, .it {
-        text-align: center;
-        width: 90%;
-        max-width: 100%;
+        width: 100%;
+        max-width: 65%;
     }
 
     .office{
@@ -177,33 +176,36 @@ p{
     }
 
     .pic1{
-        right: -20px;
+        right: 20%;
         top: 5px;
     }
 
     .pic2{
-        right: -5%;
+        right: 20%;
         top: 135px;
     }
 
+    .pic3{
+        right: -20%;
+    }
     .dot{
         margin: 0%;
         margin-left: 16px;
     }
 
     .dot2 {
-        margin-left: 130px;
-        top: 4.2%;
+        margin-left: 190px;
+        top: 4%;
     }
 
     .dot3 {
-        margin-left: 130px;
-        top: 31.2%;
+        margin-left: 190px;
+        top: 29%;
     }
 
     .dot4 {
-        margin-left: 150px;
-        top: 12.4%;
+        margin-left: 155px;
+        top: 10%;
     }
 
     .dot5 {

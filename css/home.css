@@ -130,12 +130,13 @@ p{
     .self {
         flex-direction: column;
         align-items: center;
+        width: 80%;
     }
 
     .selfie, .intro {
         margin: 10px;
         text-align: center;
         flex: 0 0 100%;
-        max-width: 90%;
+        max-width: 100%;
     }
 }
