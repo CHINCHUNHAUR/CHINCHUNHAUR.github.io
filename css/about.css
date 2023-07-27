@@ -1,0 +1,110 @@
+body{
+    margin: 0%;
+    background-color: #DAFFFB;
+}
+
+.bar{
+    background-color: #083656;
+    display: flex;
+    justify-content:space-between;
+    color:white;
+    align-items: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #083656;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.aboutme{
+    display: flex;
+}
+
+.left{
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 1000px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+#me{
+    font-weight: bolder;
+    font-size: 35px;
+    margin: 0;
+}
+
+.service{
+    width: 800px;
+    margin: 106px 100px 0px 100px;
+}
+
+.software{
+    background-color: white;
+    width: 400px;
+    text-align: justify;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+#service1{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.application{
+    background-color: white;
+    width: 400px;
+    text-align: justify;
+    padding: 30px;
+}
+
+#service2{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 960px) {
+    .topnav a {
+        padding: 12px 8px;
+    }
+    
+    .aboutme {
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .left {
+        flex: 0 0 65%;
+        max-width: 65%;
+    }
+
+    .service {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
