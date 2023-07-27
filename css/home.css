@@ -134,9 +134,12 @@ p{
     }
 
     .selfie, .intro {
-        margin: 10px;
         text-align: center;
         flex: 0 0 100%;
         max-width: 80%;
+    }
+
+    .selfie{
+        padding: 20px 0px 0px 0px;
     }
 }
