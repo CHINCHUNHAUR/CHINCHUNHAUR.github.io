@@ -32,6 +32,10 @@ body {
     color: black;
 }
 
+.logo{
+    padding: 5px;
+}
+
 p {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -137,9 +141,10 @@ a{
 }
 
 @media (max-width: 768px) {
-    .left, .address {
-        width: 100%;
+    .left{
+        width: 90%;
         margin-left: 0;
+        padding: 20px;
     }
 
 
@@ -160,11 +165,19 @@ a{
     }
 
     .button {
-        width: 90%;
-        left: 0;
+        width: 100%;
+        left: 0%;
+        margin-bottom: 20px;
     }
 
     .topnav a {
         padding: 12px 8px;
+    }
+
+    .way{
+        padding-left: 20px;
+    }
+    .address{
+        width: 90%;
     }
 }

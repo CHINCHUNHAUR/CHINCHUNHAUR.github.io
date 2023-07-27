@@ -31,6 +31,10 @@ body{
     color: black;
 }
 
+.logo{
+    padding: 5px;
+}
+
 p{
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -62,6 +66,7 @@ p{
     margin: auto;
     width: 100%;
     width: fit-content;
+    margin-bottom: 50px;
 }
 
 li{
@@ -162,7 +167,7 @@ li{
     .header {
         margin-top: 20px;
         text-align: start;
-        margin-left: 0px;
+        margin-left: 30px;
     }
 
     .skill {
@@ -170,6 +175,8 @@ li{
         left: 20px;
         border-left: solid;
         margin: 0;
+        margin-left: 30px;
+        margin-bottom: 40px;
     }
 
     .left {

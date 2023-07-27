@@ -1,6 +1,7 @@
 body{
     margin: 0%;
     position: relative;
+    background-color: #F9F9F9;
 }
 
 .bar{
@@ -32,6 +33,10 @@ body{
     color: black;
 }
 
+.logo{
+    padding: 5px;
+}
+
 p{
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -47,26 +52,48 @@ p{
 }
 
 .education{
-    background-color: #F9F9F9;
-    width: 1150px;
-    float: right;
+    margin: 0;
     position: relative;
-    padding-bottom: 123px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    width: 50%;
+    padding-right: 50px;
+    margin-top: 150px;
+}
+
+.pic{
+    float: right;
+}
+
+.study{
+    float: right;
+    padding-right: 300px;
+    width: fit-content;
 }
 
 .degree{
     margin-top: 70px;
-    margin-left: 270px;
+
+}
+
+.logo1{
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
 }
 
 .diploma{
     margin-top: 70px;
-    margin-left: 270px;
+
 }
 
 .secondary{
     margin-top: 70px;
-    margin-left: 270px;
+
 }
 
 .button{
@@ -77,16 +104,22 @@ p{
     text-decoration: none;    
     overflow: hidden;
     color: white;
+    font-size: 20px;
+    position: relative;
 }
+
 
 .button:focus{
     background-color: #176B87;
 }
 
+
 #myDIV, #myDIV2, #myDIV3{
     background-color: white;
     margin-top: 10px;
-    width: 620px;
+    width: 600px;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 .cgpa{
@@ -98,13 +131,8 @@ p{
     padding-bottom: 20px;
 }
 
-.img{
-    position: absolute;
-    top: 400%;
-    left: 10%;
-}
 
-@media (max-width: 1400px) {
+@media (max-width: 900px) {
 
     .topnav a {
         padding: 12px 8px;
@@ -115,10 +143,17 @@ p{
         max-width: 900px;
         margin: 0 auto;
         text-align: center;
+        flex-direction: column;
     }
 
-    .button {
+    .study{
+        padding-right: 0%;
+        width: auto;
+    }
+
+    .button, .button1 {
         width: 90%;
+        font-size: 15px;
     }
 
     .degree, .diploma, .secondary {
@@ -139,8 +174,7 @@ p{
     }
 
     .img {
-        position: static;
-        margin-top: 30px;
-        max-width: 300px;
+        margin-left: 150px;
+        margin-top: 50px;
     }
 }

@@ -1,5 +1,7 @@
 body{
     margin: 0px;
+    background-color: #DAFFFB;
+
 }
 
 p{
@@ -53,11 +55,14 @@ p{
     color: black;
 }
 
+.logo{
+    padding: 5px;
+}
+
 .me{
-    background-color: #DAFFFB;
     display: flex;
     justify-content: center;
-    height: 690px;
+    padding-bottom: 50px;
 }
 
 .self{
@@ -114,6 +119,8 @@ p{
         font-size: 10px;
     }
 
+
+
     .topnav a {
         padding: 12px 8px;
     }
@@ -146,5 +153,26 @@ p{
         display: block;
     }
 
+    #myself{
+        text-align: center;
+    }
 
+    #pic{
+        display: none;
+    }
+
+    #name{
+        font-size: 25px;
+    }
+    
+    #job, #myself, #hi{
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    #crop{
+        display: none;
+    }
 }

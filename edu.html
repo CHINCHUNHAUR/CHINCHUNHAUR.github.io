@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -15,7 +16,7 @@
     <div class="bar">
 
         <div class="logo">
-            <img src="img/kamen_rider_geats_logo_by_zettstuff_dflyb1z-fullview.png" alt width="50">
+            <img src="img/kamen_rider_geats_logo_by_zettstuff_dflyb1z-fullview.png" alt width="40">
         </div>
 
 
@@ -28,83 +29,88 @@
         </div>
 
     </div>
+    <p id="title">E D U C A T I O N</p>
+
 
     <div class="education">
-        <p id="title">E D U C A T I O N</p>
-
-                <div class="degree">
-                    <button class="button" onclick="myFunction()">
-                        <p>Degree In Software Engineering</p>
-                    </button>
-
-                    <div id="myDIV" style="display: none;">
-                        <p>Start studying Software engineering at 2022 in New Era University college after graduating
-                            from
-                            diploma.
-                            Studied knowledge about C++, html, css, bootstrap, and laravel.</p>
-                        <p class="cgpa">CGPA: 3.57</p>
-                    </div>
-
-                    <script>
-                        function myFunction() {
-                            var x = document.getElementById("myDIV");
-                            if (x.style.display === "none") {
-                                x.style.display = "block";
-                            } else {
-                                x.style.display = "none";
-                            }
-                        }
-                    </script>
+        <div class="img">
+            <img src="img/education 1.png" alt height="300" class="pic">
+        </div>
+        <div class="study">
+            <div class="degree">
+                <button class="button" onclick="myFunction()">
+                    Degree In Software Engineering<img src="img/icons8-plus-100.png" class="logo1" width="50">
+                </button>
+                <div id="myDIV">
+                    <p>Start studying Software engineering at 2022 in New Era University college after graduating
+                        from
+                        diploma.
+                        Studied knowledge about C++, html, css, bootstrap, and laravel.</p>
+                    <p class="cgpa">CGPA: 3.57</p>
                 </div>
 
-        <div class="diploma">
-            <button class="button" onclick="myFunction2()">
-                <p class="buttontitle">Diploma In Internet Technology</p>
-            </button>
+                <script>
+                    function myFunction() {
+                        var x = document.getElementById("myDIV");
+                        if (x.style.display === "none") {
+                            x.style.display = "block";
+                        } else {
+                            x.style.display = "none";
+                        }
+                    }
+                </script>
 
-            <div id="myDIV2" style="display: none;">
-                <p>Start studying information-technology at 2019 in New Era University college after graduating from
-                    secondary school.
-                    Studied knowledge about javascript, networking and pc maintainance.</p>
-                <p class="cgpa">CGPA: 3.41</p>
             </div>
 
-            <script>
-                function myFunction2() {
-                    var x = document.getElementById("myDIV2");
-                    if (x.style.display === "none") {
-                        x.style.display = "block";
-                    } else {
-                        x.style.display = "none";
+            <div class="diploma">
+                <button class="button" onclick="myFunction2() ; changeImage()">
+                    Diploma In Internet Technology<img src="img/icons8-plus-100.png" class="logo1" width="50">
+                </button>
+
+                <div id="myDIV2" style="display: none;">
+                    <p>Start studying information-technology at 2019 in New Era University college after graduating from
+                        secondary school.
+                        Studied knowledge about javascript, networking and pc maintainance.</p>
+                    <p class="cgpa">CGPA: 3.41</p>
+                </div>
+
+                <script>
+                    function myFunction2() {
+                        var x = document.getElementById("myDIV2");
+                        if (x.style.display === "none") {
+                            x.style.display = "block";
+                        } else {
+                            x.style.display = "none";
+                        }
                     }
-                }
-            </script>
-        </div>
-
-        <div class="secondary">
-            <button class="button" onclick="myFunction3()">
-                <p class="buttontitle">Secondary School</p>
-            </button>
-
-            <div id="myDIV3" style="display: none;">
-                <p>Study in SMJK Yu Hua for secondary school from 2013 to 2017, studied basic knowledge for chinese,
-                    malay and english in an accounting class</p>
+                </script>
             </div>
 
-            <script>
-                function myFunction3() {
-                    var x = document.getElementById("myDIV3");
-                    if (x.style.display === "none") {
-                        x.style.display = "block";
-                    } else {
-                        x.style.display = "none";
+            <div class="secondary">
+                <button class="button" onclick="myFunction3()">
+                    Secondary School<img src="img/icons8-plus-100.png" class="logo1" width="50">
+                </button>
+
+                <div id="myDIV3" style="display: none;">
+                    <p>Study in SMJK Yu Hua for secondary school from 2013 to 2017, studied basic knowledge for chinese,
+                        malay and english in an accounting class</p>
+                </div>
+
+                <script>
+                    function myFunction3() {
+                        var x = document.getElementById("myDIV3");
+                        if (x.style.display === "none") {
+                            x.style.display = "block";
+                        } else {
+                            x.style.display = "none";
+                        }
                     }
-                }
-            </script>
+                </script>
+            </div>
         </div>
     </div>
 
-    <img src="img/education 1.png" alt class="img">
+
 
 </body>
 
