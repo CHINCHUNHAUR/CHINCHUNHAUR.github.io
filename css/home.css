@@ -74,6 +74,10 @@ p{
     padding: 70px 20px 50px 70px;
 }
 
+.mypic{
+    width: 300px;
+}
+
 .intro{
     padding: 50px 50px 70px 0px;
     width: 350px;
@@ -143,5 +147,9 @@ p{
 
     .selfie{
         padding: 20px 0px 0px 0px;
+    }
+
+    .mypic{
+        width: 200px;
     }
 }
