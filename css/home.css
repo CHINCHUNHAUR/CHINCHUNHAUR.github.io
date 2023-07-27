@@ -74,9 +74,6 @@ p{
     padding: 70px 20px 50px 70px;
 }
 
-.mypic{
-    width: 300px;
-}
 
 .intro{
     padding: 50px 50px 70px 0px;
@@ -150,6 +147,8 @@ p{
     }
 
     .mypic{
-        width: 200px;
+        width: 50%;
+        margin: auto;
+        display: block;
     }
 }
