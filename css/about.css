@@ -113,11 +113,13 @@ p{
     }
 
     .software{
-        width: 90%;
+        width: 80%;
+        text-align: left;
     }
 
     .application{
-        width: 90%;
+        width: 80%;
+        text-align: left;
 
     }
 }
