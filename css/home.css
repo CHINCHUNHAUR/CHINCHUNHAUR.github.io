@@ -133,10 +133,12 @@ p{
         width: 80%;
     }
 
-    .selfie, .intro {
+    .intro {
         text-align: center;
         flex: 0 0 100%;
         max-width: 95%;
+        text-align: center;
+        padding: 0px;
     }
 
     .selfie{
