@@ -38,16 +38,18 @@ body {
 
 p {
     font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    margin: 0;
+
 }
 
 #me {
     font-weight: bolder;
     font-size: 35px;
-    margin: 0;
-    text-align: center;
-    margin-top: 50px;
+    margin: 50px 50px 70px 50px;
+    border-bottom: solid;
+    border-color: #EDA12F;
+    border-width: 6px;
+    width: fit-content;
+    padding-bottom: 20px;
 }
 
 .contactme {
@@ -94,43 +96,42 @@ p {
 }
 
 .form {
-    width: 50%;
-    padding-right: 100px;
+    width: 35%;
+    padding: 50px;
+    border-left: solid;
+    border-top: solid;
+    border-width: 5px;
+    height: 500px;
+    margin-top: 100px;
 }
 
 input[type=text] {
-    width: 100%;
-    padding: 30px 20px 30px 30px;
+    width: 80%;
     display: inline-block;
-    border: 2px solid #000000;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid; 
     box-sizing: border-box;
-    height: 50px;
-    font-size: 20px;
-    margin-top: 50px;
+    font-size: 16px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+}
+
+.send{
+    margin: 0%;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .button {
-    width: 20%;
-    background-color: #176B87;
+    width: 30%;
+    background-color: #000000;
     color: white;
-    padding: 14px 20px;
     margin: 8px 0;
+    padding: 0px 30px 0px 30px;
     border: none;
     border-radius: 20px;
-    position: relative;
-    left: 80%;
-}
 
-#message {
-    margin-top: 50px;
-    width: 100%;
-    height: 350px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid;
-    font-size: 20px;
-    resize: none;
-    font-family: 'Inter', sans-serif;
 }
 
 a{
@@ -138,6 +139,41 @@ a{
     color: #000000;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
+}
+
+.footer {
+    overflow: hidden;
+    background-color: #083656;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.find{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.media{
+    display: flex;
+    justify-content: center;
+}
+
+.fb{
+    padding-right: 40px;
+    border-right: solid;
+    border-color: white;
+}
+
+.ig{
+    padding:0px 40px 0px 40px;
+    border-right: solid;
+    border-color: white;
+}
+
+.wa{
+    padding-left: 40px;
 }
 
 @media (max-width: 768px) {

@@ -1,6 +1,6 @@
 body{
     margin: 0%;
-    background-color: #DAFFFB;
+    background-color: #ffffff;
 }
 
 .bar{
@@ -38,40 +38,52 @@ body{
 
 p{
     font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    margin: 0;
 }
 
-.aboutme{
-    display: flex;
-}
 
-.left{
+.top{
     margin-left: 100px;
-    margin-top: 50px;
-    width: 1000px;
+    margin: 50px 100px 0px 100px;
+    width: 80%;
     line-height: 1.6;
     margin-bottom: 0;
     text-align: justify;
+    display: flex;
+    background-color: #EEEEEE;
+    padding: 50px;
+    align-items: center;
 }
 
 #me{
     font-weight: bolder;
     font-size: 35px;
-    margin: 0;
+    margin: 50px 50px 70px 50px;
+    border-bottom: solid;
+    border-color: #EDA12F;
+    border-width: 6px;
+    width: fit-content;
+    padding-bottom: 20px;
+}
+
+#intro{
+    padding-left: 50px;
+    font-size: 16px;
 }
 
 .service{
-    width: 800px;
     margin: 106px 100px 0px 100px;
+    display: flex;
+    justify-content: center;
 }
 
 .software{
     background-color: white;
-    width: 400px;
+    width: fit-content;
     text-align: justify;
     padding: 30px;
     margin-bottom: 50px;
+    margin-right: 80px;
+    background-color: #EEEEEE;
 }
 
 #service1{
@@ -82,14 +94,66 @@ p{
 
 .application{
     background-color: white;
-    width: 400px;
+    width: fit-content;
     text-align: justify;
     padding: 30px;
+    margin-bottom: 50px;
+    margin-right: 80px;
+    background-color: #EEEEEE;
 }
 
 #service2{
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+.network{
+    background-color: white;
+    width: fit-content;
+    text-align: justify;
+    padding: 30px;
+    margin-bottom: 50px;
+    background-color: #EEEEEE;
+}
+
+#service3{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer {
+    overflow: hidden;
+    background-color: #083656;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.find{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.media{
+    display: flex;
+    justify-content: center;
+}
+
+.fb{
+    padding-right: 40px;
+    border-right: solid;
+    border-color: white;
+}
+
+.ig{
+    padding:0px 40px 0px 40px;
+    border-right: solid;
+    border-color: white;
+}
+
+.wa{
+    padding-left: 40px;
 }
 
 @media screen and (max-width: 960px) {
@@ -102,13 +166,21 @@ p{
         margin-right: 0;
     }
 
-    .left {
-        width: 90%;
-        margin-left: 0px;
+    .top {
+        width: 80%;
         align-items: center;
-        text-align: center;
-        margin: auto;
-        margin-top: 50px;
+        flex-direction: column;
+        margin: 0px;
+        padding: 20px;
+        margin-left: 20px;
+    }
+
+    #intro{
+        padding: 0px;
+    }
+
+    .img{
+        width: 80%;
     }
 
     .service {
@@ -116,6 +188,7 @@ p{
         margin: auto;
         margin-top: 50px;
         margin-bottom: 50px;
+        flex-direction: column;
     }
 
     .software{

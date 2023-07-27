@@ -1,7 +1,7 @@
 body{
     margin: 0%;
     position: relative;
-    background-color: #F9F9F9;
+    background-color: #ffffff;
 }
 
 .bar{
@@ -39,16 +39,17 @@ body{
 
 p{
     font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    margin: 0;
 }
 
 #title{
     font-weight: bolder;
     font-size: 35px;
-    margin: 0;
-    padding-top: 50px;
-    text-align: center;
+    margin: 50px 50px 70px 50px;
+    border-bottom: solid;
+    border-color: #EDA12F;
+    border-width: 6px;
+    width: fit-content;
+    padding-bottom: 20px;
 }
 
 .education{
@@ -115,20 +116,48 @@ p{
 
 
 #myDIV, #myDIV2, #myDIV3{
-    background-color: white;
+    background-color: #F6F6F6;
     margin-top: 10px;
     width: 600px;
-    padding-left: 20px;
-    padding-top: 20px;
+    padding: 20px 0px 20px 20px;
+    border: solid;
+    border-width: 0.5px;
 }
 
-.cgpa{
-    padding: 50px 20px 20px 0px;
-    text-align: right;
+
+.footer {
+    overflow: hidden;
+    background-color: #083656;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: white;
 }
 
-#myDIV3{
-    padding-bottom: 20px;
+.find{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.media{
+    display: flex;
+    justify-content: center;
+}
+
+.fb{
+    padding-right: 40px;
+    border-right: solid;
+    border-color: white;
+}
+
+.ig{
+    padding:0px 40px 0px 40px;
+    border-right: solid;
+    border-color: white;
+}
+
+.wa{
+    padding-left: 40px;
 }
 
 

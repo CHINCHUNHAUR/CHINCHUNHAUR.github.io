@@ -1,12 +1,12 @@
 body{
     margin: 0px;
-    background-color: #DAFFFB;
+    background-color: white;
 
 }
 
 p{
     font-family: 'Inter', sans-serif;
-    font-size: 20px;
+
 }
 
 .img{
@@ -19,11 +19,12 @@ p{
 }
 
 .hi{
-    color: white;
+    color: #ffffff;
     position: absolute;
-    top: 30%;
+    top: 25%;
     width: 100%;
     text-align: center;
+    font-size: 35px;
 }
 
 .bar{
@@ -62,12 +63,12 @@ p{
 .me{
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .self{
     display: flex;
-    background-color: white;
+    background-color: #EEEEEE;
     width: fit-content;
     height: fit-content;
     margin-top: 80px;
@@ -82,7 +83,7 @@ p{
 
 .intro{
     padding: 50px 50px 70px 0px;
-    width: 350px;
+    width: 500px;
     word-spacing: 5px;
 }
 
@@ -106,17 +107,54 @@ p{
     display: flex;
     align-items: center;
     gap: 20px;
+    padding-top: 20px;
 }
 
 .home{
     display: flex;
     align-items: center;
     gap: 20px;
+    padding-top: 20px;
+}
+
+.footer {
+    overflow: hidden;
+    background-color: #083656;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.find{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.media{
+    display: flex;
+    justify-content: center;
+}
+
+.fb{
+    padding-right: 40px;
+    border-right: solid;
+    border-color: white;
+}
+
+.ig{
+    padding:0px 40px 0px 40px;
+    border-right: solid;
+    border-color: white;
+}
+
+.wa{
+    padding-left: 40px;
 }
 
 @media screen and (max-width: 768px) {
     .welcome {
-        font-size: 10px;
+        font-size: 16px;
     }
 
 
@@ -167,6 +205,10 @@ p{
     
     #job, #myself, #hi{
         font-size: 15px;
+    }
+
+    .find{
+        font-size: 25px;
     }
     
 }

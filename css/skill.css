@@ -1,6 +1,6 @@
 body{
     margin: 0%;
-    background-color: #DAFFFB;
+    background-color: white;
 }
 
 .bar{
@@ -38,7 +38,6 @@ body{
 p{
     font-family: 'Inter', sans-serif;
     font-size: 20px;
-    margin: 0;
 }
 
 .header{
@@ -48,7 +47,14 @@ p{
 }
 
 #title{
+    font-weight: bolder;
     font-size: 35px;
+    margin: 50px 50px 70px 50px;
+    border-bottom: solid;
+    border-color: #EDA12F;
+    border-width: 6px;
+    width: fit-content;
+    padding-bottom: 20px;
 }
 
 .dot {
@@ -66,7 +72,7 @@ p{
     margin: auto;
     width: 100%;
     width: fit-content;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 li{
@@ -77,6 +83,7 @@ li{
 .left{
     border-right: solid;
     width: 305px;
+    padding-bottom: 80px;
 }
 
 .name{
@@ -85,12 +92,14 @@ li{
 }
 
 .office{
-    height: 350px;
+    padding-bottom: 400px;
+    padding-top: 20px;
 }
 
 .pic1{
     position: absolute;
-    right: 101%;
+    right: 102%;
+    top: 5%;
 }
 
 .dot2 {
@@ -101,12 +110,13 @@ li{
     display: inline-block;
     margin: auto;
     position: absolute;
-    top: 3.5%;
+    top: 6.6%;
 }
 
 .pic2{
     position: absolute;
-    right: 101%;
+    right: 102%;
+
 }
 
 .dot3 {
@@ -117,7 +127,7 @@ li{
     display: inline-block;
     margin: auto;
     position: absolute;
-    top: 67%;
+    top: 70.5%;
 }
 
 .right{
@@ -143,7 +153,7 @@ li{
     display: inline-block;
     margin: auto;
     position: absolute;
-    top: 10%;
+    top: 9.9%;
     right: 0%;
 }
 
@@ -158,6 +168,41 @@ li{
     top: 100%;
     right: 0%;
     left: 0%;
+}
+
+.footer {
+    overflow: hidden;
+    background-color: #083656;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.find{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.media{
+    display: flex;
+    justify-content: center;
+}
+
+.fb{
+    padding-right: 40px;
+    border-right: solid;
+    border-color: white;
+}
+
+.ig{
+    padding:0px 40px 0px 40px;
+    border-right: solid;
+    border-color: white;
+}
+
+.wa{
+    padding-left: 40px;
 }
 
 @media screen and (max-width: 800px) {
@@ -194,13 +239,13 @@ li{
     }
 
     .pic1{
-        right: 20%;
-        top: 5px;
+        right: 18%;
+        top: 40px;
     }
 
     .pic2{
-        right: 20%;
-        top: 170px;
+        right: 18%;
+        top: 230px;
     }
 
     .pic3{
@@ -213,12 +258,12 @@ li{
 
     .dot2 {
         margin-left: 190px;
-        top: 2.5%;
+        top: 6.4%;
     }
 
     .dot3 {
         margin-left: 190px;
-        top: 23.5%;
+        top: 26%;
     }
 
     .dot4 {
