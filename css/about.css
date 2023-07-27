@@ -104,8 +104,8 @@ p{
     }
 
     .service {
-        flex: 0 0 20%;
-        max-width: 80%;
+
+        width: 80%px;
         margin-left: 10px;
     }
 }
