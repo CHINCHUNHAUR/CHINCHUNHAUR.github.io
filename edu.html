@@ -9,123 +9,148 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 
-    <div class="bar">
-
-        <div class="logo">
-            <img src="img/kamen_rider_geats_logo_by_zettstuff_dflyb1z-fullview.png" alt width="40">
+    <nav class="navbar navbar-expand-lg p-0 m-0">
+        <div class="menu container-fluid p-2">
+            <img src="img/kamen_rider_geats_logo_by_zettstuff_dflyb1z-fullview.png" alt="" class="logo" width="50px">
+            <button class="navbar-toggler" data-bs-theme="dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="skill.html">My Skill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="edu.html">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="contact.html">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-
-
-        <div class="topnav">
-            <a class="home" href="index.html">Home</a>
-            <a class="about" href="about.html">About Me</a>
-            <a class="myskill" href="skill.html">My Skill</a>
-            <a class="edu" href="edu.html">Education</a>
-            <a class="contact" href="contact.html">Contact Me</a>
-        </div>
-
-    </div>
+    </nav>
     <p id="title">E D U C A T I O N</p>
 
 
-    <div class="education">
-        <div class="img">
-            <img src="img/education 1.png" alt height="300" class="pic">
+    <div class="education col">
+        <div class="img row-6">
+            <img src="img/education 1.png" alt width="100%" class="pic">
         </div>
-        <div class="study">
-            <div class="degree">
-                <button class="button" onclick="myFunction()">
-                    Degree In Software Engineering<img src="img/icons8-plus-100.png" class="logo1" width="50">
-                </button>
-                <div id="myDIV">
-                    <p>Start studying Software engineering at 2022 in New Era University college after graduating
-                        from
-                        diploma.
-                        Studied knowledge about C++, html, css, bootstrap, and laravel.    CGPA: 3.57</p>
+
+            <div class="study row-6">
+                <div class="degree">
+                    <button class="button" onclick="myFunction()">
+                        Degree In Software Engineering<img src="img/icons8-plus-100.png" class="logo1" alt="degree" width="50">
+                    </button>
+                    <div id="myDIV">
+                        <p>Start studying Software engineering at 2022 in New Era University college after graduating
+                            from
+                            diploma.
+                            Studied knowledge about C++, html, css, bootstrap, and laravel. CGPA: 3.57</p>
+                    </div>
+
+                    <script>
+                        function myFunction() {
+                            var x = document.getElementById("myDIV");
+                            if (x.style.display === "none") {
+                                x.style.display = "block";
+                            } else {
+                                x.style.display = "none";
+                            }
+                        }
+                    </script>
+
                 </div>
 
-                <script>
-                    function myFunction() {
-                        var x = document.getElementById("myDIV");
-                        if (x.style.display === "none") {
-                            x.style.display = "block";
-                        } else {
-                            x.style.display = "none";
+                <div class="diploma">
+                    <button class="button" onclick="myFunction2() ; changeImage()">
+                        Diploma In Internet Technology<img src="img/icons8-plus-100.png" class="logo1" alt="diploma"
+                            width="50">
+                    </button>
+
+                    <div id="myDIV2" style="display: none;">
+                        <p>Start studying information-technology at 2019 in New Era University college after graduating
+                            from
+                            secondary school.
+                            Studied knowledge about javascript, networking and pc maintainance. CGPA: 3.41</p>
+                    </div>
+
+                    <script>
+                        function myFunction2() {
+                            var x = document.getElementById("myDIV2");
+                            if (x.style.display === "none") {
+                                x.style.display = "block";
+                            } else {
+                                x.style.display = "none";
+                            }
                         }
-                    }
-                </script>
-
-            </div>
-
-            <div class="diploma">
-                <button class="button" onclick="myFunction2() ; changeImage()">
-                    Diploma In Internet Technology<img src="img/icons8-plus-100.png" class="logo1" width="50">
-                </button>
-
-                <div id="myDIV2" style="display: none;">
-                    <p>Start studying information-technology at 2019 in New Era University college after graduating from
-                        secondary school.
-                        Studied knowledge about javascript, networking and pc maintainance.    CGPA: 3.41</p>
+                    </script>
                 </div>
 
-                <script>
-                    function myFunction2() {
-                        var x = document.getElementById("myDIV2");
-                        if (x.style.display === "none") {
-                            x.style.display = "block";
-                        } else {
-                            x.style.display = "none";
+                <div class="secondary">
+                    <button class="button" onclick="myFunction3()">
+                        Secondary School<img src="img/icons8-plus-100.png" class="logo1" alt="secondary" width="50">
+                    </button>
+
+                    <div id="myDIV3" style="display: none;">
+                        <p>Study in SMJK Yu Hua for secondary school from 2013 to 2017, studied basic knowledge for
+                            chinese,
+                            malay and english in an accounting class</p>
+                    </div>
+
+                    <script>
+                        function myFunction3() {
+                            var x = document.getElementById("myDIV3");
+                            if (x.style.display === "none") {
+                                x.style.display = "block";
+                            } else {
+                                x.style.display = "none";
+                            }
                         }
-                    }
-                </script>
+                    </script>
+                </div>
             </div>
+        </div>
 
-            <div class="secondary">
-                <button class="button" onclick="myFunction3()">
-                    Secondary School<img src="img/icons8-plus-100.png" class="logo1" width="50">
-                </button>
+        <div class="footer">
 
-                <div id="myDIV3" style="display: none;">
-                    <p>Study in SMJK Yu Hua for secondary school from 2013 to 2017, studied basic knowledge for chinese,
-                        malay and english in an accounting class</p>
+            <p class="find">FIND ME HERE:</p>
+
+            <div class="media">
+                <div class="fb">
+                    <a href="https://www.facebook.com/chunhaur.chin/" target="_blank"><img src="img/facebook-logo 2.png"
+                            alt="fb" width="30"></a>
+                </div>
+                <div class="ig">
+                    <a href="https://www.facebook.com/chunhaur.chin/" target="_blank"><img
+                            src="img/instagram-logo 2.png" alt="ig" width="30"></a>
+                </div>
+                <div class="wa">
+                    <a href="https://www.facebook.com/chunhaur.chin/" target="_blank"><img src="img/whatsapp (5) 1.png"
+                            alt="wa" width="30"></a>
                 </div>
 
-                <script>
-                    function myFunction3() {
-                        var x = document.getElementById("myDIV3");
-                        if (x.style.display === "none") {
-                            x.style.display = "block";
-                        } else {
-                            x.style.display = "none";
-                        }
-                    }
-                </script>
             </div>
+            <p>Copyright © 2023 Chin Chun Haur.</p>
         </div>
-    </div>
-
-    <div class="footer">
-
-        <p class="find">FIND ME HERE:</p>
-
-        <div class="media">
-            <div class="fb">
-                <a href="https://www.facebook.com/chunhaur.chin/" target="_blank"><img src="img/facebook-logo 2.png" alt width="30"></a>
-            </div>
-            <div class="ig">
-                <a href="https://www.facebook.com/chunhaur.chin/" target="_blank"><img src="img/instagram-logo 2.png" alt width="30"></a>
-            </div>
-            <div class="wa">
-                <a href="https://www.facebook.com/chunhaur.chin/" target="_blank"><img src="img/whatsapp (5) 1.png" alt width="30"></a>
-            </div>
-
-        </div>
-        <p>Copyright © 2023 Chin Chun Haur.</p>
-    </div>
 
 
 </body>

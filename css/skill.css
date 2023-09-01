@@ -3,36 +3,26 @@ body{
     background-color: white;
 }
 
-.bar{
+.menu{
     background-color: #083656;
-    display: flex;
-    justify-content:space-between;
-    color:white;
-    align-items: center;
-}
-
-.topnav {
-    overflow: hidden;
-    background-color: #083656;
+    font-family: 'Dosis', sans-serif;
     font-family: 'Inter', sans-serif;
 }
 
-.topnav a {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
 
-.topnav a:hover {
-    background-color: white;
-    color: black;
+.nav-item:hover { 
+    background-color: #000000;
 }
 
 .logo{
     padding: 5px;
+}
+
+.collapse{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-right: 30px;
 }
 
 p{
@@ -110,7 +100,7 @@ li{
     display: inline-block;
     margin: auto;
     position: absolute;
-    top: 6.6%;
+    top: 5%;
 }
 
 .pic2{
@@ -127,7 +117,7 @@ li{
     display: inline-block;
     margin: auto;
     position: absolute;
-    top: 70.5%;
+    top: 68%;
 }
 
 .right{
@@ -166,7 +156,7 @@ li{
     margin: auto;
     position: absolute;
     top: 100%;
-    right: 0%;
+    right: 0.4%;
     left: 0%;
 }
 
@@ -181,7 +171,8 @@ li{
 
 .find{
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 20px;
+    padding-top: 10px;
 }
 
 .media{
@@ -206,9 +197,7 @@ li{
 }
 
 @media screen and (max-width: 800px) {
-    .topnav a {
-        padding: 12px 8px;
-    }
+
     .header {
         margin-top: 20px;
         text-align: start;
@@ -258,17 +247,17 @@ li{
 
     .dot2 {
         margin-left: 190px;
-        top: 6.4%;
+        top: 4.6%;
     }
 
     .dot3 {
         margin-left: 190px;
-        top: 26%;
+        top: 23.7%;
     }
 
     .dot4 {
         margin-left: 155px;
-        top: 5.5%;
+        top: 6%;
     }
 
     .dot5 {

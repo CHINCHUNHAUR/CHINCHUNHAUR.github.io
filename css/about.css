@@ -3,37 +3,26 @@ body{
     background-color: #ffffff;
 }
 
-.bar{
-    background-color: #083656;
-    display: flex;
-    justify-content:space-between;
-    color:white;
-    align-items: center;
-}
-
-.topnav {
-    overflow: hidden;
+.menu{
     background-color: #083656;
     font-family: 'Dosis', sans-serif;
     font-family: 'Inter', sans-serif;
 }
 
-.topnav a {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
 
-.topnav a:hover {
-    background-color: white;
-    color: black;
+.nav-item:hover { 
+    background-color: #000000;
 }
 
 .logo{
     padding: 5px;
+}
+
+.collapse{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-right: 30px;
 }
 
 p{
@@ -42,8 +31,7 @@ p{
 
 
 .top{
-    margin-left: 100px;
-    margin: 50px 100px 0px 100px;
+    margin: auto;
     width: 80%;
     line-height: 1.6;
     margin-bottom: 0;
@@ -132,7 +120,8 @@ p{
 
 .find{
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 20px;
+    padding-top: 10px;
 }
 
 .media{
@@ -157,9 +146,6 @@ p{
 }
 
 @media screen and (max-width: 960px) {
-    .topnav a {
-        padding: 12px 8px;
-    }
     
     .aboutme {
         flex-direction: column;
@@ -170,9 +156,8 @@ p{
         width: 80%;
         align-items: center;
         flex-direction: column;
-        margin: 0px;
+        margin: auto;
         padding: 20px;
-        margin-left: 20px;
     }
 
     #intro{
@@ -191,14 +176,11 @@ p{
         flex-direction: column;
     }
 
-    .software{
+    .software , .application , .network{
         width: 80%;
         text-align: left;
+        margin: auto;
+        margin-bottom: 50px;
     }
 
-    .application{
-        width: 80%;
-        text-align: left;
-
-    }
 }

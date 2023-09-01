@@ -21,43 +21,32 @@ p{
 .hi{
     color: #ffffff;
     position: absolute;
-    top: 25%;
+    top: 30%;
     width: 100%;
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
 }
 
-.bar{
-    background-color: #083656;
-    display: flex;
-    justify-content:space-between;
-    color:white;
-    align-items: center;
-}
-
-.topnav {
-    overflow: hidden;
+.menu{
     background-color: #083656;
     font-family: 'Dosis', sans-serif;
     font-family: 'Inter', sans-serif;
 }
 
-.topnav a {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
 
-.topnav a:hover {
-    background-color: white;
-    color: black;
+.nav-item:hover { 
+    background-color: #000000;
 }
 
 .logo{
     padding: 5px;
+}
+
+.collapse{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-right: 30px;
 }
 
 .me{
@@ -128,7 +117,8 @@ p{
 
 .find{
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 20px;
+    padding-top: 10px;
 }
 
 .media{
@@ -152,15 +142,58 @@ p{
     padding-left: 40px;
 }
 
+@media screen and (max-width: 950px) {
+    .welcome {
+        font-size: 14px;
+    }
+
+    .me {
+        height: auto;
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+
+    .self {
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+
+    .intro {
+        text-align: center;
+        max-width: 95%;
+        text-align: center;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .selfie{
+        padding: 20px 0px 0px 0px;
+    }
+
+    .mypic{
+        width: 50%;
+        margin: auto;
+        display: block;
+    }
+
+    #myself{
+        text-align: center;
+    }
+
+    #name{
+        font-size: 25px;
+    }
+    
+    #job, #myself, #hi{
+        font-size: 15px;
+    }
+
+    
+}
+
 @media screen and (max-width: 768px) {
     .welcome {
         font-size: 16px;
-    }
-
-
-
-    .topnav a {
-        padding: 12px 8px;
     }
 
     .me {
@@ -206,11 +239,12 @@ p{
     #job, #myself, #hi{
         font-size: 15px;
     }
+}
 
-    .find{
-        font-size: 25px;
+@media screen and (max-width: 308px) {
+    .welcome {
+        font-size: 12px;
     }
-    
 }
 
 @media screen and (min-width: 768px) {
